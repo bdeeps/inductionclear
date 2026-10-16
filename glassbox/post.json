@@ -1,0 +1,126 @@
+{
+  "slug": "inductionclear",
+  "box": 178,
+  "question": "How does an induction stove work?",
+  "url": "https://glassbox.how/e/inductionclear/",
+  "app": "https://glassbox.how/inductionclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "190 years from a ring of iron in London to a 2 kW hob on an Indian kitchen counter.\n\n1831: Faraday's induction ring\n1855: Currents that heat a disc\n1899: An induction furnace melts steel\n1956: Boiling water through a newspaper\n1971: The Cool Top\n1978: The IGBT\n\nThe full story, with 24 moments, sources and charts: glassbox.how/e/inductionclear/history (link in bio)\n\nThen play with how it works: glassbox.how/inductionclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #inductionstove #inductionhob #inductioncooktop #eddycurrents #skindepth #resonantinverter #history",
+      "youtube": {
+        "title": "The history of the induction hob in 45 seconds #shorts",
+        "description": "190 years from a ring of iron in London to a 2 kW hob on an Indian kitchen counter.\n\n1831 · Faraday's induction ring (Michael Faraday)\n1855 · Currents that heat a disc (Léon Foucault)\n1899 · An induction furnace melts steel (Fredrik Adolf Kjellin)\n1956 · Boiling water through a newspaper (Frigidaire, General Motors)\n1971 · The Cool Top (Westinghouse Research and Development Center)\n1978 · The IGBT (B. Jayant Baliga, General Electric)\n\n▶ Full history: https://glassbox.how/e/inductionclear/history/\n▶ Play with it: https://glassbox.how/e/inductionclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does an induction stove work?\n\nThe glass stays cool, yet the pan boils water in three minutes. Take an induction hob apart in 3D, watch eddy currents crowd into a skin thinner than a hair, and race it against gas and an electric coil.\n\n→ Under the glass of an induction hob: a flat copper coil, ferrite bars and a box of fast electronics.\n→ The coil’s field flips 24,000 times a second and drives eddy currents round inside the pan’s base.\n→ Swap in aluminium and the same current makes about 1% of the heat. The hob refuses to start.\n→ Rectify the 50 Hz mains to DC, then chop it back into AC at about 30,000 times a second.\n→ No pan? A test pulse rings on and on, so the hob stays off.\n\nPlay with it yourself. It's free and open source: glassbox.how/inductionclear (link in bio)\n\nBox No. 178 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #inductionstove #inductionhob #inductioncooktop #eddycurrents #skindepth #resonantinverter #igbt #lpg #energyefficiency",
+    "carousel": "Swipe through: How does an induction stove work?\n\nThe glass stays cool, yet the pan boils water in three minutes. Take an induction hob apart in 3D, watch eddy currents crowd into a skin thinner than a hair, and race it against gas and an electric coil.\n\nSave this for later, then play with the interactive version at glassbox.how/inductionclear (link in bio).\n\nBox No. 178 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #inductionstove #inductionhob #inductioncooktop #eddycurrents #skindepth #resonantinverter",
+    "youtube": {
+      "title": "How does an induction stove work? #shorts",
+      "description": "The glass stays cool, yet the pan boils water in three minutes. Take an induction hob apart in 3D, watch eddy currents crowd into a skin thinner than a hair, and race it against gas and an electric coil.\n\n▶ Play with it: https://glassbox.how/e/inductionclear/\n⌘ Source code (MIT): https://github.com/bdeeps/inductionclear\n\nBox No. 178 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does an induction stove work? (interactive explainer)",
+      "description": "The glass stays cool, yet the pan boils water in three minutes. Take an induction hob apart in 3D, watch eddy currents crowd into a skin thinner than a hair, and race it against gas and an electric coil.\n\n▶ Play with the interactive version: https://glassbox.how/e/inductionclear/\n⌘ Source code (MIT): https://github.com/bdeeps/inductionclear\n\nIn this video:\n• A coil under glass, not a heater. Under the black glass-ceramic top sits a flat spiral coil of Litz wire with ferrite bars below it, and a board of power electronics: a rectifier, two IGBT switches on a heat sink, a capacitor and a fan.\n• The pan is the heater. The coil's current swings back and forth about 24,000 times a second.\n• Why it needs a magnetic pan. At these frequencies the current crowds into a thin skin: about 0.23 mm in cast iron, 0.53 mm in aluminium.\n• Electronics tuned like a swing. A rectifier turns the 230 V mains into DC of up to 325 V, and two IGBTs chop it into fast AC through the coil and a capacitor.\n• Less waste on the way to the pot. Boiling 1 litre from 25 °C needs 314 kJ whatever the stove.\n• A 2 kW load and a fast pan. At 2,000 W the hob draws 8.7 A, so it needs a 16 A wall socket, not a thin extension board.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does an induction stove work?\n\nThe glass stays cool, yet the pan boils water in three minutes.\n\nPlay with it: https://glassbox.how/e/inductionclear/",
+    "linkedin": "How does an induction stove work?\n\nThe glass stays cool, yet the pan boils water in three minutes. Take an induction hob apart in 3D, watch eddy currents crowd into a skin thinner than a hair, and race it against gas and an electric coil.\n\n1. A coil under glass, not a heater\n2. The pan is the heater\n3. Why it needs a magnetic pan\n4. Electronics tuned like a swing\n5. Less waste on the way to the pot\n6. A 2 kW load and a fast pan\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 178 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/inductionclear/\nCode: https://github.com/bdeeps/inductionclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-16T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-16T10:28:29.248Z"
+}

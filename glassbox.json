@@ -1,0 +1,103 @@
+{
+  "slug": "inductionclear",
+  "box": 178,
+  "date": "2026-10-20",
+  "title": "InductionClear",
+  "question": "How does an induction stove work?",
+  "hook": "The glass stays cool, yet the pan boils water in three minutes. Take an induction hob apart in 3D, watch eddy currents crowd into a skin thinner than a hair, and race it against gas and an electric coil.",
+  "thumbText": "HOW INDUCTION COOKS",
+  "field": "physics",
+  "minutes": 14,
+  "tags": [
+    "induction stove",
+    "induction hob",
+    "induction cooktop",
+    "eddy currents",
+    "skin depth",
+    "resonant inverter",
+    "IGBT",
+    "LPG",
+    "energy efficiency",
+    "kitchen physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A coil under glass, not a heater",
+      "text": "Under the black glass-ceramic top sits a flat spiral coil of Litz wire with ferrite bars below it, and a board of power electronics: a rectifier, two IGBT switches on a heat sink, a capacitor and a fan. There is no hot element at all."
+    },
+    {
+      "title": "The pan is the heater",
+      "text": "The coil's current swings back and forth about 24,000 times a second. Its flipping magnetic field drives eddy currents round the pan's base, and the metal's resistance turns them into heat right where the food is."
+    },
+    {
+      "title": "Why it needs a magnetic pan",
+      "text": "At these frequencies the current crowds into a thin skin: about 0.23 mm in cast iron, 0.53 mm in aluminium. Iron is magnetic and resistive, so the same coil current makes about 80 times more heat in it than in aluminium. If a magnet sticks to the base, it works."
+    },
+    {
+      "title": "Electronics tuned like a swing",
+      "text": "A rectifier turns the 230 V mains into DC of up to 325 V, and two IGBTs chop it into fast AC through the coil and a capacitor. The pair resonates near 32 kHz. Driving above resonance turns the power down, and a test pulse that rings too long tells the hob there is no suitable pan."
+    },
+    {
+      "title": "Less waste on the way to the pot",
+      "text": "Boiling 1 litre from 25 °C needs 314 kJ whatever the stove. ENERGY STAR puts induction at about 85%, electric coils at 75–80% and US gas hobs at about 32%. India's lab rules ask at least 80% of a star-labelled induction hob and 68% of an LPG burner."
+    },
+    {
+      "title": "A 2 kW load and a fast pan",
+      "text": "At 2,000 W the hob draws 8.7 A, so it needs a 16 A wall socket, not a thin extension board. An empty pan can pass 250 °C in under a minute. On an oil fire, switch off and cover with a metal lid, never water. The stray field fades quickly with distance."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Electromagnetic induction",
+      "def": "A changing magnetic field makes a voltage, and so a current, in a nearby conductor."
+    },
+    {
+      "term": "Eddy currents",
+      "def": "Loops of current that a changing magnetic field drives round inside a piece of metal, heating it."
+    },
+    {
+      "term": "Skin depth",
+      "def": "How deep high-frequency current reaches into a metal; about 0.23 mm in cast iron at 24 kHz."
+    },
+    {
+      "term": "Ferromagnetic",
+      "def": "Strongly magnetic, like iron and some steels. Induction hobs need a pan base made of such metal."
+    },
+    {
+      "term": "Litz wire",
+      "def": "Wire of many thin insulated strands twisted together, so high-frequency current uses all of the copper."
+    },
+    {
+      "term": "IGBT",
+      "def": "Insulated-gate bipolar transistor: the fast, high-current electronic switch that drives the coil."
+    },
+    {
+      "term": "Resonance",
+      "def": "The frequency at which a coil and capacitor swing energy back and forth most easily, f = 1 ÷ (2π√(LC))."
+    },
+    {
+      "term": "Efficiency",
+      "def": "The share of the energy you pay for that ends up in the food or water."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "inductionclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
